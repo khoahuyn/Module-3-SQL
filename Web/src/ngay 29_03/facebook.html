@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hương cute |Facebook</title>
+    <style>
+        .content >div{
+            background-color: peachpuff;
+            text-align: center;
+            border: 1px solid #ffffff;
+            font-size: 30px;
+            padding: 30px;
+        }
+        .content{
+            display: grid;
+            grid-template-areas:
+                    'hearder hearder'
+                    'menu menu'
+                    'section aside'
+                    'article aside'
+                    'footer footer';
+        }
+
+        .item1{
+            grid-area: hearder;
+        }
+        .item2{
+            grid-area: menu;
+        }
+        .item3{
+            grid-area: section;
+        }
+        .item4{
+            grid-area: aside;
+        }
+        .item5{
+            grid-area: article;
+        }
+        .item6{
+            grid-area: footer;
+        }
+    </style>
+</head>
+<body>
+
+<div class="content">
+    <div class="item1">
+        
+    </div>
+    <div class="item2">menu</div>
+    <div class="item3">section</div>
+    <div class="item4">aside</div>
+    <div class="item5">article</div>
+    <div class="item6">footer</div>
+</div>
+
+</body>
+</html>
